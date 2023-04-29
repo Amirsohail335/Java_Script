@@ -8,5 +8,5 @@ const myPromise = new Promise((resolve, reject) => {
 //     console.log(result);
 //   }).catch((error) => {
 //     console.error(error);
-  });
+  //});
   
