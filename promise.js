@@ -4,9 +4,9 @@ const myPromise = new Promise((resolve, reject) => {
     }, 1000);
   });
   
-  myPromise.then((result) => {
-    console.log(result);
-  }).catch((error) => {
-    console.error(error);
+//   myPromise.then((result) => {
+//     console.log(result);
+//   }).catch((error) => {
+//     console.error(error);
   });
   
