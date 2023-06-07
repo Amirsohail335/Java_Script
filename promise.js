@@ -1,12 +1,19 @@
 const myPromise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve('Promise resolved!');
-    }, 1000);
-  });
-  
-  myPromise.then((result) => {
+  setTimeout(() => {
+    resolve("Promise resolved!");
+  }, 1000);
+});
+
+myPromise
+  .then((result) => {
     console.log(result);
-  }).catch((error) => {
+  })
+  .catch((error) => {
     console.error(error);
   });
-  
+
+const myFunction = function (a, b) {
+  return a * b;
+};
+
+let x = myFunction(4, 3);
