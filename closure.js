@@ -9,6 +9,6 @@ function initCounter() {
   counter() // 0
   counter() // 1
   
-  let counter1 = initCounter();
-  counter1() // 0
-  counter1() // 1
+  // let counter1 = initCounter();
+  // counter1() // 0
+  // counter1() // 1
