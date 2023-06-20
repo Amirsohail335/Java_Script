@@ -6,6 +6,6 @@ function fun() {
   console.log(ta);
 }
 
-// fun();
-// console.log(teacher); // if function will be in middle then scope of fun will change
-// console.log(ta);
+fun();
+console.log(teacher); // if function will be in middle then scope of fun will change
+console.log(ta);
