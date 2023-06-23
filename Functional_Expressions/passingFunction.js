@@ -8,6 +8,7 @@ function gun(fn) {
   fn();
 
   console.log("leaving gun");
+  console.trace();
 }
 
 gun(function () {
