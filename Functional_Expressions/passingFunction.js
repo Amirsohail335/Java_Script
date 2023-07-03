@@ -11,6 +11,6 @@ function gun(fn) {
   console.trace();
 }
 
-// gun(function () {
-//   console.log("new function passed");
-// });
+gun(function () {
+  console.log("new function passed");
+});
