@@ -11,3 +11,5 @@ function fun(x , fn){
 fun(10 , function log() {
     console.log("Custome logger");
 })
+
+
