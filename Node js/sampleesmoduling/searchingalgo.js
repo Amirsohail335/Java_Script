@@ -13,6 +13,8 @@ function binarySearch(arr, x){
 
 }
 
+console.log("Ending Search")
+
 module.exports = {
     linear : linearSearch,
     binary : binarySearch
