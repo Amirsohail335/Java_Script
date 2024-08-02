@@ -4,6 +4,12 @@ function initCounter() {
       count++;
     };
   }
+
+function initCounter2(){
+  let count = 1;
+  return function () {
+    count++;
+}
   
   let counter = initCounter();
   counter() // 0
