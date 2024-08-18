@@ -10,6 +10,7 @@ function initCounter2(){
   return function () {
     count++;
 }
+}
   
   let counter = initCounter();
   counter() // 0

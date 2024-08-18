@@ -1,7 +1,7 @@
 //Activity 1 :- Variable Declaration
 //Task 1
  var a = 333;
- console.log(a)
+//  console.log(a)
 
  //Task 2
  let name = "Amir Sohail";
